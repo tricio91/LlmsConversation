@@ -7,8 +7,6 @@ A LangChain-based system that enables multiple Ollama LLM models to have structu
 - **Multi-round debates** between different LLM models
 - **Session-based chat history** management
 - **Role-based personalities** (Economist, Technologist, etc.)
-- **Structured debate summaries**
-- **Easy configuration** via environment variables
 
 ## Requirements
 
