@@ -48,7 +48,6 @@ MODELS["new_model"] = ModelConfig(
     name="NEW_MODEL",
     llm=create_llm("MODEL_NAME_OLLAMA_NEW"),
     system_prompt="Your custom system prompt...",
-    emoji="🟡",
     role="Your Role"
 )
 ```
