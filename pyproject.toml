@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-llm-debate"
+version = "0.1.0"
+description = "Multi-agent debate between two local LLMs (Ollama + LangChain)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "tricio91" }]
+dependencies = [
+    "langchain>=0.1.0",
+    "langchain-ollama>=0.1.0",
+    "langchain-community>=0.0.1",
+    "python-dotenv>=1.0.0",
+    "gradio>=4.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
