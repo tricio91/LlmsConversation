@@ -76,3 +76,6 @@ ModelConfig(
     system_prompt="You are an ethical philosopher. You question everyone's assumptions...",
 )
 ```
+## License
+
+MIT.
