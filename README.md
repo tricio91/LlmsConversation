@@ -8,7 +8,6 @@ Each model gets a role through its system prompt (economist, technologist,
 whatever), you give it a topic, and they go back and forth for a few rounds.
 There's a small Gradio app to run it and download the result as Markdown or JSON.
 
-<!-- Replace with a real screenshot/GIF before publishing. -->
 ![Demo](demo.gif)
 
 ## How it works
